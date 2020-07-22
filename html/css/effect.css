@@ -23,19 +23,19 @@ span.light:before { /*텍스트에 흰색 블러로 반짝이는 표현 부가*/
   
   }
 
-  .rightFade{
-    -webkit-animation: rightFadeIn ease 6s;
-    animation: rightFadeIn ease 6s;
+  .FadeIn{
+    -webkit-animation: FadeIn ease 6s;
+    animation: FadeIn ease 6s;
   }
 
-  .leftFade{
+  .leftFadeIn{
     -webkit-animation: leftFadeIn ease 4s;
     animation: leftFadeIn ease 4s;
   }
 
-  .rightFade-light{
-    -webkit-animation: rightFadeIn-light ease 6s;
-    animation: rightFadeIn-light ease 6s;
+  .FadeIn-light{
+    -webkit-animation: FadeIn-light ease 6s;
+    animation: FadeIn-light ease 6s;
   }
 
   @-webkit-keyframes flash {
@@ -72,7 +72,7 @@ span.light:before { /*텍스트에 흰색 블러로 반짝이는 표현 부가*/
     }
   }
 
-  @-webkit-keyframes rightFadeIn {
+  @-webkit-keyframes FadeIn {
     0%{
       opacity: 0;
     }
@@ -81,7 +81,7 @@ span.light:before { /*텍스트에 흰색 블러로 반짝이는 표현 부가*/
     }
   }
 
-  @keyframes rightFadeIn {
+  @keyframes FadeIn {
     0%{
       opacity: 0;
     }
@@ -90,7 +90,7 @@ span.light:before { /*텍스트에 흰색 블러로 반짝이는 표현 부가*/
     }
   }
 
-  @-webkit-keyframes rightFadeIn-light {
+  @-webkit-keyframes FadeIn-light {
     0%{
       opacity: 0;
     }
@@ -99,7 +99,7 @@ span.light:before { /*텍스트에 흰색 블러로 반짝이는 표현 부가*/
     }
   }
 
-  @keyframes rightFadeIn-light {
+  @keyframes FadeIn-light {
     0%{
       opacity: 0;
     }
