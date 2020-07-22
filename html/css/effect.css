@@ -26,16 +26,22 @@ span.light:before { /*텍스트에 흰색 블러로 반짝이는 표현 부가*/
   .FadeIn{
     -webkit-animation: FadeIn ease 6s;
     animation: FadeIn ease 6s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
   }
 
   .leftFadeIn{
     -webkit-animation: leftFadeIn ease 4s;
     animation: leftFadeIn ease 4s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
   }
 
   .FadeIn-light{
     -webkit-animation: FadeIn-light ease 6s;
     animation: FadeIn-light ease 6s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
   }
 
   @-webkit-keyframes flash {
