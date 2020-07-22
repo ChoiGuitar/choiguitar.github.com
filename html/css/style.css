@@ -21,7 +21,7 @@ div > h2 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 5rem;
-  line-height: 0.6;
+  line-height: 1;
   margin-left: 40px;
 }
 
