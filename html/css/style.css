@@ -1,0 +1,47 @@
+
+body,html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ .box{  /* .box클래스 태그들을 전부 한 화면 크기를 꽉채우도록 설정 */
+  width:100%; 
+  height:100%; 
+  display: inline-block;
+  position: relative;
+  color:#ffffff; 
+  font-size:24pt;
+}
+
+div > h2 {
+  font-family: 'Arial';
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 0.6;
+  margin-left: 40px;
+}
+
+h2 > span {
+  display: block;
+  margin-bottom: 30px;
+  text-shadow: 0 0 3px, 0 0 3px; 
+  opacity: 0.7;
+}
+
+span.light {
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+}
+
+
+
+#bottom{
+  position: absolute;
+  right: 60px;
+  bottom: 50px;
+}
