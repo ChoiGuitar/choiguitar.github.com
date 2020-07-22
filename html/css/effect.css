@@ -57,7 +57,7 @@ span.light:before { /*텍스트에 흰색 블러로 반짝이는 표현 부가*/
     }
     100%{
       right: 60px;
-      opacity: 0.6;
+      opacity: 0.7;
     }
   }
 
@@ -68,7 +68,7 @@ span.light:before { /*텍스트에 흰색 블러로 반짝이는 표현 부가*/
     }
     100%{
       right: 60px;
-      opacity: 0.6;
+      opacity: 0.7;
     }
   }
 
@@ -77,7 +77,7 @@ span.light:before { /*텍스트에 흰색 블러로 반짝이는 표현 부가*/
       opacity: 0;
     }
     100%{
-      opacity: 0.6;
+      opacity: 0.7;
     }
   }
 
@@ -86,7 +86,7 @@ span.light:before { /*텍스트에 흰색 블러로 반짝이는 표현 부가*/
       opacity: 0;
     }
     100%{
-      opacity: 0.6;
+      opacity: 0.7;
     }
   }
 
